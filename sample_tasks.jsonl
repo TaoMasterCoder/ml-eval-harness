@@ -1,0 +1,4 @@
+{"id": "t-exact", "prompt": "Return only the numeric answer to 6*7.", "expected": "42", "check_type": "exact"}
+{"id": "t-contains", "prompt": "Summarize whether the job succeeded.", "expected": "success", "check_type": "contains"}
+{"id": "t-numeric", "prompt": "What is the measured temperature in Celsius?", "expected": {"value": 99.5, "tolerance": 0.2}, "check_type": "numeric_tolerance"}
+{"id": "t-timeout", "prompt": "Slow job __SLEEP__2", "expected": "done", "check_type": "exact"}
